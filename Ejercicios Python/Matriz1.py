@@ -15,3 +15,8 @@ for i in range(3):
     for j in range(5):
         Matriz [i][j] = Matriz [i][j] * 2
 print (Matriz)
+
+#A continuacion creamos una matriz a partir de una lista, pero esta no es la forma correcta de hacerlo....
+a = [0]*5        #Se hace una repetición del elemento 0
+Matriz = [a]*3   #Se crea una referencia a la lista anterior // NO es una nueva lista
+print(Matriz)
